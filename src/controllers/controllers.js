@@ -476,8 +476,47 @@ const ordersdb = [
                 price:10
             }
         ]
+    },
+    {
+        id:"a821b77b-636b-4fa8-a27f-90d5a75d830f",
+        currency:"ARS",
+        userEmail:"felipe@gmail.com",
+        total:19,
+        orders:[
+            {
+                productId:"7c306e81-7ac9-43b7-b25c-6b6db2d75c7e",
+                description:"inteligencia emocional",
+                price:19
+            },
+            {
+                productId:"a817a66a-636b-4fa8-a27f-90d5a75d830f",
+                description:"javascript",
+                price:10
+            }
+        ]
+    },
+    {
+        id:"b932c88c-636b-4fa8-a27f-90d5a75d830f",
+        currency:"ARS",
+        userEmail:"felipe@gmail.com",
+        total:19,
+        orders:[
+            {
+                productId:"7c306e81-7ac9-43b7-b25c-6b6db2d75c7e",
+                description:"inteligencia emocional",
+                price:19
+            },
+            {
+                productId:"7a88d220-3d86-4868-a5a3-65326ea523bd",
+                description:"wordpress",
+                price:10
+            }
+        ]
     }
 ]
+
+
+
 
 async function chargeOrder(){
     ordersdb.forEach(async orderdb=>{
