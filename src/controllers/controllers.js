@@ -11,7 +11,7 @@ const productsdb = [
         createBy: "alejandro sanchez",
         price: 9,
         category: ["2"],
-        user: ['felipe@gmail.com','sedwarb@gmail.com'],
+        user: ['felipe@mail.com','sedwarb@mail.com'],
         stock: 60
     },
     {
@@ -23,7 +23,7 @@ const productsdb = [
         createBy: "fernando herrera",
         price: 10,
         category: ["2"],
-        user: ['felipe@gmail.com','mariano@gmail.com','sedwarb@gmail.com'],
+        user: ['felipe@mail.com','mariano@mail.com','sedwarb@mail.com'],
         stock: 60
     },
     {
@@ -35,7 +35,7 @@ const productsdb = [
         createBy: "juan toro",
         price: 10,
         category: ["2"],
-        user: ['felipe@gmail.com','mariano@gmail.com','sedwarb@gmail.com'],
+        user: ['felipe@mail.com','mariano@mail.com','sedwarb@mail.com'],
         stock: 60
     },
     {
@@ -47,7 +47,7 @@ const productsdb = [
         createBy: "alejandro sanchez",
         price: 9,
         category: ["2"],
-        user: ['felipe@gmail.com'],
+        user: ['felipe@mail.com'],
         stock: 60
     },
     {
@@ -59,7 +59,7 @@ const productsdb = [
         createBy: "alan mancera",
         price: 11,
         category: ["2"],
-        user: ['sedwarb@gmail.com'],
+        user: ['sedwarb@mail.com'],
         stock: 60
     },
     {
@@ -71,7 +71,7 @@ const productsdb = [
         createBy: "hector guzman",
         price: 10,
         category: ["2"],
-        user: ['mariano@gmail.com'],
+        user: ['mariano@mail.com'],
         stock: 60
     },
     {
@@ -83,7 +83,7 @@ const productsdb = [
         createBy: "guillermo gracia",
         price: 8,
         category: ["2"],
-        user: ['mariano@gmail.com','sedwarb@gmail.com'],
+        user: ['mariano@mail.com','sedwarb@mail.com'],
         stock: 60
     },
     {
@@ -95,7 +95,7 @@ const productsdb = [
         createBy: "delimar reyes",
         price: 8,
         category: ["2"],
-        user: ['felipe@gmail.com','mariano@gmail.com','sedwarb@gmail.com'],
+        user: ['felipe@mail.com','mariano@mail.com','sedwarb@mail.com'],
         stock: 60
     },
     {
@@ -107,7 +107,7 @@ const productsdb = [
         createBy: "fernando herrera",
         price: 11,
         category: ["2"],
-        user: ['felipe@gmail.com','sedwarb@gmail.com'],
+        user: ['felipe@mail.com','sedwarb@mail.com'],
         stock: 60
     },
     {
@@ -119,7 +119,7 @@ const productsdb = [
         createBy: "fernando herrera",
         price: 11,
         category: ["2"],
-        user: ['felipe@gmail.com','mariano@gmail.com'],
+        user: ['felipe@mail.com','mariano@mail.com'],
         stock: 60
     },
     {
@@ -131,7 +131,7 @@ const productsdb = [
         createBy: "marlon ceballos",
         price: 11,
         category: ["1"],
-        user: ['felipe@gmail.com'],
+        user: ['felipe@mail.com'],
         stock: 60
     },
     {
@@ -143,7 +143,7 @@ const productsdb = [
         createBy: "miguel soto",
         price: 11,
         category: ['3'],
-        user: ['felipe@gmail.com','mariano@gmail.com'],
+        user: ['felipe@mail.com','mariano@mail.com'],
         stock: 60
     },
     {
@@ -155,7 +155,7 @@ const productsdb = [
         createBy: "joel combes",
         price: 11,
         category: ["1"],
-        user: ['felipe@gmail.com','mariano@gmail.com','sedwarb@gmail.com'],
+        user: ['felipe@mail.com','mariano@mail.com','sedwarb@mail.com'],
         stock: 60
     },
     {
@@ -167,7 +167,7 @@ const productsdb = [
         createBy: "diego davila",
         price: 11,
         category: ["1", "2"],
-        user: ['felipe@gmail.com'],
+        user: ['felipe@mail.com'],
         stock: 60
     },
     {
@@ -179,7 +179,7 @@ const productsdb = [
         createBy: "odin fernandez",
         price: 11,
         category: ["1"],
-        user: ['felipe@gmail.com','mariano@gmail.com','sedwarb@gmail.com'],
+        user: ['felipe@mail.com','mariano@mail.com','sedwarb@mail.com'],
         stock: 60
     },
     {
@@ -191,7 +191,7 @@ const productsdb = [
         createBy: "camilo barboza",
         price: 8,
         category: ["3"],
-        user: ['mariano@gmail.com'],
+        user: ['mariano@mail.com'],
         stock: 60
     },
     {
@@ -331,7 +331,7 @@ const userdb = [
         nickName: 'sedwarb',
         firstName: 'edwar',
         lastName: 'sebrian',
-        email: 'sedwarb@gmail.com',
+        email: 'sedwarb@mail.com',
         phone: '+583206707858',
         birthdate: '26/08/1980',
         country: 'venezuela',
@@ -344,7 +344,7 @@ const userdb = [
         nickName: 'mariano',
         firstName: 'carlos mariano',
         lastName: 'fuchilieri',
-        email: "mariano@gmail.com",
+        email: "mariano@mail.com",
         phone: '+5492613343474',
         birthdate: '21/05/1969',
         country: 'argentina',
@@ -357,7 +357,7 @@ const userdb = [
         nickName: 'felipe',
         firstName: 'felipe',
         lastName: 'de la paz',
-        email: 'felipe@gmail.com',
+        email: 'felipe@mail.com',
         phone: '+56951592718',
         birthdate: 'n/a',
         country: 'chile',
@@ -369,25 +369,25 @@ const reviewdb = [
     {
         description: "Esta Aceptable",
         ranking: 3,
-        userEmail: 'felipe@gmail.com',
+        userEmail: 'felipe@mail.com',
         productId: "6f6d6be0-d113-42e7-9e5c-c4f1175e096b"
     },
     {
         description: "Muy malo",
         ranking: 5,
-        userEmail: 'sedwarb@gmail.com',
+        userEmail: 'sedwarb@mail.com',
         productId: "6f6d6be0-d113-42e7-9e5c-c4f1175e096b"
     },
     {
         description: "mala calidad, no comprar",
         ranking: 1,
-        userEmail: 'mariano@gmail.com',
+        userEmail: 'mariano@mail.com',
         productId: "a817a66a-636b-4fa8-a27f-90d5a75d830f"
     },
     {
         description: "regular",
         ranking: 3,
-        userEmail: 'mariano@gmail.com',
+        userEmail: 'mariano@mail.com',
         productId: "a817a66a-636b-4fa8-a27f-90d5a75d830f"
     },
 ]
@@ -444,7 +444,7 @@ const ordersdb = [
     {
         id:"c461032e-bd5a-4271-aa46-e495ff3c0b36",
         currency:"ARS",
-        userEmail:"mariano@gmail.com",
+        userEmail:"mariano@mail.com",
         total:19,
         orders:[
             {
@@ -462,7 +462,7 @@ const ordersdb = [
     {
         id:"a817a66a-636b-4fa8-a27f-90d5a75d830f",
         currency:"ARS",
-        userEmail:"sedwarb@gmail.com",
+        userEmail:"sedwarb@mail.com",
         total:19,
         orders:[
             {
@@ -480,7 +480,7 @@ const ordersdb = [
     {
         id:"a821b77b-636b-4fa8-a27f-90d5a75d830f",
         currency:"ARS",
-        userEmail:"felipe@gmail.com",
+        userEmail:"felipe@mail.com",
         total:19,
         orders:[
             {
@@ -498,7 +498,7 @@ const ordersdb = [
     {
         id:"b932c88c-636b-4fa8-a27f-90d5a75d830f",
         currency:"ARS",
-        userEmail:"felipe@gmail.com",
+        userEmail:"felipe@mail.com",
         total:19,
         orders:[
             {
